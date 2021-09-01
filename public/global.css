@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;800;900&display=swap&family=Oxygen:wght@300;400;700&display=swap');
+
+:root {
+  --color-night: #040713;
+  --color-orange: #ff8408;
+  --color-red: #fe0000;
+  --color-blue: #5398c1;
+  --color-yellow: #fadd03;
+  --color-yellow-txt: #b9ae58;
+  --color-purple: #9f3fa0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background-color: var(--color-night);
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--color-yellow-txt);
+  height: 100vh;
+}
+
+
+a {
+    color: rgb(175, 215, 223)
+  }
+  
+  button {
+    font-family: 'Orbitron', sans-serif;
+    outline: none;
+    border: 1px solid var(--color-blue);
+    padding: 10px;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, .5);
+    color: var( --color-purple);
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+  }
+
+
+  canvas {
+    box-sizing: border-box;
+  }
+
+  #mithril{
+    padding: 0;
+    margin: 0;
+  }

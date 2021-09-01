@@ -1,0 +1,31 @@
+{
+  "name": "template-game",
+  "version": "0.0.1",
+  "description": "template for JS game",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "format": "prettier --write \"src/**/*.js\"",
+    "lint": "prettier --check \"src/**/*\"",
+    "test": "ospec --preload ./test-setup.js **/*.spec.mjs",
+    "cover": "nyc npm run test"
+  },
+  "author": "kazerlelutin",
+  "license": "ISC",
+  "devDependencies": {
+    "@snowpack/plugin-dotenv": "^2.2.0",
+    "istanbul": "^0.4.5",
+    "jsdom": "^17.0.0",
+    "mithril-query": "^4.0.1",
+    "nyc": "^15.1.0",
+    "ospec": "^4.1.1",
+    "prettier": "2.3.2",
+    "snowpack": "^3.8.8",
+    "test-listen": "^1.1.0"
+  },
+  "dependencies": {
+    "kaboom": "^0.8.0-beta.25",
+    "mithril": "^2.0.4"
+  }
+}
